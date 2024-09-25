@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Registration Portal</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Company Directory Portal</h1>
+    <div class="formContainer">
+      <h2>Employee Registration Form</h2>
+      
+      <form action="" class="form">
+        <label for="">Full Name:</label>
+        <input type="text" required>
+
+        <label for="">Email:</label>
+        <input type="email" required>
+
+        <label for="">Department:</label>
+        <select name="Department" id="" >
+          <option value="">IT</option>
+          <option value="">HR</option>
+          <option value="">Finance</option>
+          <option value="">Marketing</option>
+        </select>
+
+        <label for="">Employee ID:</label>
+        <input type="number" required>
+
+        <label for="">Profile Picture URL</label>
+        <input type="url" required>
+
+        <button type="submit">Register Employee</button>
+      </form>
+    </div>
+
+    <div class="list">
+      <h2 >Employee List</h2>
+      <ol>
+        <li><a href="">John Doe - john@example.com</a></li>
+        <li><a href="">Jane Smith - jane@example.com</a></li>
+      </ol>
+    </div>
+
+    <div class="table">
+      <h2>Employee Details</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>Employee ID</th>
+            <th>Department</th>
+            <th>Profile Picture</th>
+          </tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>12345</td>
+          <td>IT</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/John_Doe%2C_born_John_Nommensen_Duchac.jpg/1200px-John_Doe%2C_born_John_Nommensen_Duchac.jpg" alt="" class="img"></td>
+        </tr>
+          <hr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>67890</td>
+          <td>HR</td>
+          <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHC29IZMQODAp5vfURr0cpm2fXU-ZUIXsN7A&usqp=CAU" alt="" class="img"></td>
+        </tr>
+        
+       </tbody>
+       <hr>
+      </table>
+
+    </div>
+
+
+    <div class="mapContainer">
+      <h2>Company Location</h2>
+      <iframe 
+        src="https://www.openstreetmap.org/export/embed.html?bbox=78.355%2C17.315%2C78.675%2C17.545&layer=mapnik" 
+        class="Location">
+      </iframe>
+    </div>
+    
+ </div>
+
+ 
+
+</body>
+</html>
